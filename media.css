@@ -221,4 +221,13 @@
     .text-effect{
         display: none !important;
     }
+
+    .icons{
+        margin-top: 2vw !important;
+        margin-bottom:  2vw !important;
+    }
+
+    .icons i{
+        font-size: 5vw !important;
+    }
 }
