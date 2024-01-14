@@ -32,7 +32,7 @@ document.querySelector(".end-video button").addEventListener("mouseleave",functi
       clickable: true,
     },
   });
-gsap.from(".nav h3, .nav a",{
+gsap.from(".nav h3, .nav a,.icons",{
     stagger: 0.1,
     opacity: 0,
     y: -30,
