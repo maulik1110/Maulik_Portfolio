@@ -231,6 +231,12 @@ li{
     scale: 1.5;
 }
 
+
+
+.rotate90{
+    transform: rotate(90deg);
+}
+
 .right-one{
     /* background-color: orchid; */
     flex-basis: 58%;
