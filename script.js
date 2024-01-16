@@ -96,3 +96,7 @@ document.querySelector("#elem3").addEventListener("mouseleave",function(dets){
     document.querySelector("#elem3 img").style.scale = 0;
     document.querySelector("#elem3 img").style.opacity = 0;
 })
+
+document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+  });
