@@ -10,6 +10,7 @@ body, html{
     width: 100%;
     height: 100%;
     font-family: 'Afacad', sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -230,8 +231,6 @@ li{
 .icons i:hover{
     scale: 1.5;
 }
-
-
 
 .rotate90{
     transform: rotate(90deg);
@@ -678,6 +677,24 @@ li{
     border-radius: 1vw;
 }
 
+.right-five button{
+    border-radius: 1vw;
+    background-color: #fff;
+}
+
+.right-five button:hover{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+form input{
+    margin-bottom: 1vw;
+    gap: 2vw;
+    width: 100%;
+    height: 100%;
+}
 
 
 #name, #email{
@@ -688,8 +705,14 @@ li{
 
 #message{
     width: 90%;
-    height: 8vw;
+    height: 5vw;
     padding: 1vw 2vw;
+}
+
+#msg{
+    color: greenyellow;
+    margin-top: -1vw;
+    display: block;
 }
 
 .footer{
@@ -816,4 +839,31 @@ li{
     height: 100%;
     top: 0;
     /* overflow: hidden; */
+}
+
+/* loader */
+
+
+body{
+    position: relative;
+}
+.loader{
+    width: 100%;
+    height: 110vh;
+    background-color: #000;
+    justify-content: center;
+    position: absolute;
+    z-index: 999999999999;
+    top: 0%;
+    left: 0;
+    transition: 1s all ease;
+    color: #fff;
+}
+
+.loader h1{
+    font-family: 'Afacad', sans-serif;
+    font-size: 6.5vw;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: url("https://media2.giphy.com/media/HkEDr0jVekaZO/giphy.gif?cid=790b76115151ed408a9cae4539eb6351baba5d85998ab783&ct=g&rid=giphy.gif");
 }
